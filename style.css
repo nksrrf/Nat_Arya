@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('./Font/roman.eot?') format('eot'), url('./Font/roman.woff') format('woff'), url('./Font/roman.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Minion';
+    src: url('./Font/MinionPro-Regular.eot?') format('eot'), url('./Font/MinionPro-Regular.woff') format('woff'), url('./Font/MinionPro-Regular.ttf') format('truetype');
+}
+
+@media screen and (min-width: 800px) {
+    nav span {
+        display: inline;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    nav span {
+        display: block;
+    }
+}
+
+#allcontent {
+    background: radial-gradient(rgba(250, 250, 250, 1) 30%, rgba(250, 250, 250, 0.72));
+    margin-top: 2.8%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    margin-bottom: 5%;
+}
+
+#particles-js {
+    background-color: #fafafa;
+    height: 100%;
+    z-index: 0;
+}
+
+#img {
+    padding-top: 2.8%;
+    overflow-y: hidden;
+}
+
+#img img {
+    height: 29.6vh;
+}
+
+.center {
+    text-align: center;
+}
+
+#maintext {
+    font-family: 'Minion';
+    padding-top: 2.8%;
+    font-size: 300%;
+}
+
+h1 {
+    font-family: 'Avenir';
+    color: rgb(255, 0, 76);
+    background: -webkit-linear-gradient(0deg, #ff9a02, #ef0b77);
+    background: -o-linear-gradient(0deg, #ff9a02, #ef0b77);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+hr {
+    height: 10px;
+    visibility: hidden;
+}
+
+nav img {
+    height: 6.02vh;
+    filter: none;
+    -webkit-filter: grayscale(0);
+    -webkit-transform: scale(1.01);
+    transform: scale(1.01);
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    text-decoration: none;
+}
+
+nav span a img:hover {
+    -webkit-filter: grayscale(1);
+    -moz-filter: grayscale(1);
+    -ms-filter: grayscale(1);
+    -o-filter: grayscale(1);
+    filter: grayscale(1);
+    filter: gray;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+#v5 {
+    padding: 0.27% 0.27% 0.27% 0.15%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-top-left-radius: 5px;
+    color: #fafafa;
+    opacity: 0.75;
+    position: fixed;
+    right: 0%;
+    bottom: 0%;
+    font-size: 80%;
+    font-family: "Avenir";
+}
+
+#v5 img {
+    height: 2vh;
+    filter: brightness(75%);
+}
